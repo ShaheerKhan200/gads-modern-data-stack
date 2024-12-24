@@ -6,10 +6,6 @@ services:
     restart: unless-stopped
     env_file:
       .env
-    #environment:
-      #POSTGRES_DB: weclouddwh #my_database_name ${POSTGRES_DB}
-      #POSTGRES_USER: shaheer_user # ${POSTGRES_USER}
-      #POSTGRES_PASSWORD: shaheer_password # ${POSTGRES_PASSWORD}
     volumes:
       - my_dbdata:/var/lib/postgresql/data
     ports:
