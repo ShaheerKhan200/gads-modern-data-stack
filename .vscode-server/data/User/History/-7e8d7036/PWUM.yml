@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: stg_keywords__campaign
+  - name: stg_keywords__ad_group
+  - name: stg_keywords__keyword

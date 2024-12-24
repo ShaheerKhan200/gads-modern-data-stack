@@ -1,0 +1,4 @@
+export DBT_ENV_SECRET_DBNAME=weclouddwh
+export DBT_ENV_SECRET_HOST=13.59.217.187
+export DBT_ENV_SECRET_PASS=shaheer_password
+#export DBT_ENV_SECRET_PORT=5432

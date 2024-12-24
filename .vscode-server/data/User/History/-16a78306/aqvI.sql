@@ -1,0 +1,1 @@
+{{ config(schema=generate_schema_name('custom_suffix')) }}

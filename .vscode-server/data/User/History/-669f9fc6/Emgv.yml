@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: gads_raw
+    database: weclouddwh
+    schema: gads_test
+    tables:
+      - name: campaign_main
+        identifier: campaign
+        loaded_at_field: date
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: ad_group_main
+        identifier: ad_group
+        loaded_at_field: date
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: ad_group_ad_main
+        identifier: ad_group_ad
+        loaded_at_field: date
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: keyword_main
+        identifier: keyword_view
+        loaded_at_field: date
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}

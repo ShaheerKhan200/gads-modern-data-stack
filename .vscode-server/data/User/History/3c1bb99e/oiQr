@@ -1,0 +1,233 @@
+
+sudo cat /etc/postgresql/16/main/pg_hba.conf
+clear
+vim ~/.ssh/authorized_keys 
+sudo apt update
+sudo apt install docker.io
+sudo curl -L "https://github.com/docker/compose/releases/download/2.24.6/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker --version
+docker-compose --version
+docker-compose --version
+sudo rm /usr/local/bin/docker-compose
+sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo docker run hello-world
+sudo docker ls -a
+sudo docker ls-a
+sudo docker ps-a
+sudo docker version
+sudo docker run hello-world
+sudo docker version
+sudo usermod -aG docker $USER
+docker run hello-world
+sudo docker run hello-world
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+docker ps -a
+docker ps
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+docker compose version
+clear
+mkdir airbyte && cd airbyte
+wget https://raw.githubusercontent.com/airbytehq/airbyte/master/run-ab-platform.sh
+chmod +x run-ab-platform.sh
+./run-ab-platform.sh -b
+docker-compose version
+cd ..
+docker-compose version
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo usermod -a -G docker $lear
+sudo apt-get remove docker-compose-plugin
+docker-compose up -d
+cd ..
+docker-compose version
+ls
+cd airbyte
+ls
+cd temporal
+docker-compose version
+docker-compose up -d
+ls
+cd .
+cd.
+ls
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo usermod -a -G docker $USER
+sudo yum update -y
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+docker-compose up -d
+newgrp docker
+docker-compose up -d
+docker-compose down -d
+docker-compose down
+docker-compose up -d
+curl http://169.254.169.254/latest/meta-data/public-ipv4
+docker-compose down
+
+docker-compose down
+docker-compose up -d
+docker-compose down
+docker-compose up -d
+docker-compose down
+docker-compose up -d
+cd.
+cd .
+cd ..
+ls
+mkdir postgres
+ls
+cd postgres
+pwd
+ls
+cd postgres
+docker-compose --version
+docker-compose up -d
+docker-compose --version
+docker-compose up -d
+docker-compose down
+docker-compose up -d
+docker-compose down
+docker ps-a
+docker ps -a
+docker ps
+docker-compose down
+docker-compose up -d
+docker-compose down
+df -h
+docker-compose up -d
+docker -ps
+docker -ps -a
+docker ps
+ls
+python3 --version
+sudo apt-get update
+sudo apt-get install python3 python3-pip -y
+ls
+cd dbt
+python version
+python3 --version
+python3-m venv dbt-env
+python3 -m venv dbt-env
+apt install python3.11-venv
+sudo apt install python3.11-venv
+source dbt-env/bin/activate
+. dbt-env/bin/activate
+.dbt-env/bin/activate
+source dbt-env/bin/activate
+python3 --version
+source dbt-env/bin/activate
+ls
+sudo source dbt-env/bin/activate
+source dbt-env/bin/activate
+pip3 install virtualenv # If virtualenv is not installed
+virtualenv dbt-env
+ls
+source dbt-env/bin/activate
+rm -rf dbt-env
+sudo apt-get install python3 python3-pip python3-venv -y
+python3 -m venv mydbtenv
+source mydbtenv/bin/activate
+pip install dbt
+dbt --version
+dbt
+mkdir ~/.dbt
+pip uninstall dbt
+dbt --version
+pip uninstall dbt
+dbt --version
+deactivate
+rm -rf mydbtenv
+python3 -m venv dbtenv
+source dbtenv/bin/activate
+git clone https://github.com/dbt-labs/dbt-core.git
+cd dbt
+python -m pip install -r requirements.txt
+ls
+cd dbt-core
+ls
+python -m pip install -r requirements.txt
+dbt init beamdata_project_google_ads
+source dbtenv/bin/activate
+python -m pip install -r requirements.txt
+ls
+cd dbt-core
+ls
+python -m pip install -r requirements.txt
+dbt --version
+source dbtenv/bin/activate
+source dbtenv/bin/activate
+python -m pip install -r requirements.txt
+ls
+cd dbt-core
+python -m pip install -r requirements.txt
+cd .
+cd ..
+ls
+pip uninstall dbt-core
+ls
+cd dbt
+ls
+source dbtenv/bin/activate
+ls
+dbt --version
+git clone https://github.com/dbt-labs/dbt-postgres.git
+cd dbt-postgres
+python -m pip install .
+ls
+dbt --version
+pip uninstall dbt-postgres
+dbt --version
+ls
+cd ..
+cd .
+cd ..
+ls
+source dbtenv/bin/activate
+cd ..
+source dbtenv/bin/activate
+python -m pip install dbt-postgres
+ls
+dbt --version
+ls
+dbt
+sudo su -
+docker ps-a
+docker -ps -a
+docker -ps
+docker ps
+source dbtenv/bin/activate
+cd ..
+source dbtenv/bin/activate
+dbt init beamdata_dbt
+ls
+cd beamdata_dbt
+dbt debug
+source dbtenv/bin/activate
+dbt debug
+cd beamdata_dbt
+dbt debug
+dbt debug
+source dbtenv/bin/activate
+groups
+getent group docker

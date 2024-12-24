@@ -1,0 +1,40 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:32769 (IPv4)
+Extension host agent listening on 32769
+
+[12:19:26] 
+
+
+
+
+[12:19:26] Extension host agent started.
+[12:19:26] [127.0.0.1][476f5e63][ManagementConnection] New connection established.
+[12:19:27] [127.0.0.1][ce6ad818][ExtensionHostConnection] New connection established.
+[12:19:27] [127.0.0.1][ce6ad818][ExtensionHostConnection] <97241> Launched Extension Host Process.
+[12:19:29] [127.0.0.1][476f5e63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:19:29] [127.0.0.1][ce6ad818][ExtensionHostConnection] <97241> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[12:19:29] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[12:19:29] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[12:19:30] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[12:19:30] Cancelling previous shutdown timeout
+[12:19:31] [127.0.0.1][11171f86][ManagementConnection] New connection established.
+[12:19:31] [127.0.0.1][971dcbf9][ExtensionHostConnection] New connection established.
+[12:19:31] [127.0.0.1][971dcbf9][ExtensionHostConnection] <97394> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[12:24:30] New EH opened, aborting shutdown
+[12:51:35] [127.0.0.1][11171f86][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:51:35] [127.0.0.1][971dcbf9][ExtensionHostConnection] <97394> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[12:51:35] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[12:56:35] Last EH closed, shutting down

@@ -1,0 +1,95 @@
+version: 2
+sources:
+  - name: weclouddwh
+    schema: g_ads
+    tables:
+      - name: user_location_view
+        identifier: user_location_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: geographic_view
+        identifier: geographic_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: display_keyword_view
+        identifier: display_keyword_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: keyword_view
+        identifier: keyword_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: click_view
+        identifier: click_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: topic_view
+        identifier: topic_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: shopping_performance_view
+        identifier: shopping_performance_view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: _view
+        identifier: _view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: _view
+        identifier: _view
+        loaded_at_field: _airbyte_extracted_at
+        freshness:
+          warn_after: {count: 1, period: hour}
+          error_after: {count: 24, period: hour}
+
+"ad_group_criterion"
+"ad_group_criterion_label"
+"ad_group_label"
+"ad_group_ad_label"
+"ad_group"
+"ad_group_ad"
+"ad_group_ad_legacy"
+"ad_group_bidding_strategy"
+
+"ad_listing_group_criterion"
+
+"campaign"
+"campaign_budget"
+"campaign_bidding_strategy"
+"campaign_criterion"
+"campaign_label"
+
+
+"label"
+"customer_label"
+"customer"
+
+
+"account_performance_report"
+
+"user_location_view"
+"geographic_view"
+"display_keyword_view"
+"keyword_view"
+"click_view"
+"topic_view"
+"shopping_performance_view"
+
+"user_interest"
+"audience"

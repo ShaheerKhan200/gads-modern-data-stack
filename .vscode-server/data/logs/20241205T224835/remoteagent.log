@@ -1,0 +1,23 @@
+2024-12-05 22:48:35.267 [info] 
+
+
+
+
+2024-12-05 22:48:35.284 [info] Extension host agent started.
+2024-12-05 22:48:35.384 [info] [<unknown>][d5ac0e95][ManagementConnection] New connection established.
+2024-12-05 22:48:35.411 [info] [<unknown>][7a454889][ExtensionHostConnection] New connection established.
+2024-12-05 22:48:35.486 [info] [<unknown>][7a454889][ExtensionHostConnection] <137465> Launched Extension Host Process.
+2024-12-05 22:53:35.284 [info] New EH opened, aborting shutdown
+2024-12-05 23:05:54.683 [info] [<unknown>][d5ac0e95][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-12-05 23:06:35.789 [info] [<unknown>][d5ac0e95][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-12-05 23:06:35.791 [info] [<unknown>][7a454889][ExtensionHostConnection] The client has reconnected.
+2024-12-05 23:06:35.795 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2024-12-05 23:06:35.822 [info] [<unknown>][d5ac0e95][ManagementConnection] The client has reconnected.
+2024-12-05 23:23:23.260 [info] [<unknown>][d5ac0e95][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-12-06 00:23:51.658 [info] [<unknown>][d5ac0e95][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-12-06 00:23:51.658 [info] [<unknown>][d5ac0e95][ManagementConnection] The client has reconnected.
+2024-12-06 00:28:52.041 [info] [<unknown>][7a454889][ExtensionHostConnection] <137465> Extension Host Process exited with code: 0, signal: null.
+2024-12-06 00:28:52.042 [info] Last EH closed, waiting before shutting down
+2024-12-06 00:33:52.042 [info] Last EH closed, shutting down

@@ -1,0 +1,2 @@
+TZ="America/New_York"
+0 2 * * * /home/ubuntu/run_dbt.sh >>  /home/ubuntu/logfile.log 2>&1

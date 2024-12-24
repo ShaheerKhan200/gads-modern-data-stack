@@ -1,0 +1,1 @@
+alias dbtenv='source /home/ubuntu/dbt/dbtenv/bin/activate'

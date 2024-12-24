@@ -1,0 +1,13 @@
+beamdata_dbt:
+  outputs:
+    dev:
+      dbname: weclouddwh
+      host: 13.59.217.187
+      pass: shaheer_password
+      port: 5432
+      schema: public # 
+      threads: 1
+      type: postgres
+      user: shaheer_user
+  target: dev
+    #prod:

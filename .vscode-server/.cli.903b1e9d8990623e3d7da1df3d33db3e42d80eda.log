@@ -1,0 +1,4 @@
+Listening on 127.0.0.1:37751
+[2024-03-10 19:51:07] info Disposed of connection to running server.
+looking for token b7b10b05-37ac-4105-ba61-a1797e0cbced, got Some("b7b10b05-37ac-4105-ba61-a1797e0cbced")
+[2024-03-10 20:02:56] info Disposed of connection to running server.
