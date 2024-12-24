@@ -18,18 +18,6 @@ services:
       - HACK_LOCAL_ROOT_PARENT=${HACK_LOCAL_ROOT_PARENT}
     volumes:
       - ${HACK_LOCAL_ROOT_PARENT}:/local_parent
-  # my_postgres:
-  #   image: postgres:latest
-  #   container_name: my_postgres
-  #   restart: unless-stopped
-  #   environment:
-  #     POSTGRES_DB: weclouddwh #my_database_name
-  #     POSTGRES_USER: shaheer_user
-  #     POSTGRES_PASSWORD: shaheer_password
-  #   volumes:
-  #     - my_postgres_data:/var/lib/postgresql/data
-  #   ports:
-  #     - "5432:5432" # Adjust if you want to expose PostgreSQL on a different port on your host
   bootloader:
     image: airbyte/bootloader:${VERSION}
     logging: *default-logging
