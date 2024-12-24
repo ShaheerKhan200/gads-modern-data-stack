@@ -1,9 +1,0 @@
-2024-12-22 23:18:55.887 [info] 
-
-
-
-
-2024-12-22 23:18:55.903 [info] Extension host agent started.
-2024-12-22 23:18:55.990 [error] [<unknown>][520e7ef2][ManagementConnection] Unknown reconnection token (never seen).
-2024-12-22 23:18:55.997 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-zh-hans /home/ubuntu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.95.2024103009
-2024-12-22 23:23:55.903 [info] Last EH closed, shutting down

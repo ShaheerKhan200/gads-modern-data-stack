@@ -1,9 +1,0 @@
-Listening on 127.0.0.1:40135
-[2024-04-30 01:27:36] info Disposed of connection to running server.
-looking for token e15060ab-4ee4-4843-b59e-1cc23f7662ad, got Some("e15060ab-4ee4-4843-b59e-1cc23f7662ad")
-[2024-04-30 01:27:38] info Disposed of connection to running server.
-[2024-04-30 01:27:38] info Disposed of connection to running server.
-looking for token e15060ab-4ee4-4843-b59e-1cc23f7662ad, got Some("e15060ab-4ee4-4843-b59e-1cc23f7662ad")
-[2024-04-30 01:27:38] info Checking /home/ubuntu/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/log.txt and /home/ubuntu/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/pid.txt for a running server...
-[2024-04-30 01:27:38] info Found running server (pid=18726)
-[2024-04-30 01:27:43] info Disposed of connection to running server.

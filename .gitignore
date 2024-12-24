@@ -1,0 +1,37 @@
+# Ignore shell and system files
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.gitconfig
+.profile
+.sudo_as_admin_successful
+.viminfo
+.wget-hsts
+
+# Ignore personal videos, temp files, and cache
+Multipass.mp4
+tmp.json
+.cache/
+
+# Ignore dbt artifacts
+.dbt/
+dbt/beamdata_dbt/logs/
+dbt/beamdata_dbt/target/
+dbt/beamdata_dbt/.env
+dbt/dbtenv/
+
+# Ignore airbyte configurations
+airbyte/configs/
+airbyte/temporal/
+airbyte/.env.dev
+airbyte/docker-compose.debug.yaml
+airbyte/flags.yml
+
+# Ignore system-specific and local configuration files
+.ssh/
+.vscode-server/
+.local/
+
+# Ignore PostgreSQL environment files
+postgres/.env
