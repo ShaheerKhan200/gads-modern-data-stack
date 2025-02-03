@@ -131,12 +131,20 @@ Another option for data validation is the incorporation of an open-source librar
 **f) Upgradation and Migration of Project:** to migrate this project from AWS to GCP to compare cost and features, incorporating Big Query instead of Postgres
 
 
-
-
 ## Following files are included in this repository:
 
 ### Files used:
 * Airbyte: Code used to setup Airbyte on AWS EC2 Instance. This can be found [here](https://github.com/ShaheerKhan200/gads-modern-data-stack/tree/main/airbyte).
+* dbt: dbt models and files hosted on AWS EC2 Instance can be found [here](https://github.com/ShaheerKhan200/gads-modern-data-stack/tree/main/dbt/beamdata_dbt).
+* Postgres: Code used to setup Postgres via Docker Compose hosted on AWS EC2 Instance can be found [here](https://github.com/ShaheerKhan200/gads-modern-data-stack/tree/main/postgres).
+* crondbtlogfile.log: To run the dbt models at scheduled time, a shell script with crontab was used, a preview of the crontab script is shown below. The dbt models are scheduled to run at 6.30 PM EST. The output of the dbt runs can be found in this file found [here](https://github.com/ShaheerKhan200/gads-modern-data-stack/blob/main/crondbtlogfile.log)
+
+**Crontab script:**
+```
+CRON_TZ="America/New_York"
+30 18 * * * echo "Starting dbt run at $(date +'\%Y-\%m-\%d \%H:\%M:\%S')" >> /home/ubuntu/crondbtlogfile.log && /home/ubuntu/run_dbt.sh >> /home/ubuntu/crondbtlogfile.log 2>&1 && echo "Finished dbt run at $(date +'\%Y-\%m-\%d \%H:\%M:\%S')" >> /home/ubuntu/crondbtlogfile.log
+```
+* Shell Script: To run the dbt models a shell script with crontab was used, the shell script used to run dbt models can be found [here](https://github.com/ShaheerKhan200/gads-modern-data-stack/blob/main/run_dbt.sh)
 
 ### Result:
 * Name.pptx: Overview of the project. This can be found [here]().
