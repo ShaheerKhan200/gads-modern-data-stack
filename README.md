@@ -148,3 +148,17 @@ CRON_TZ="America/New_York"
 
 ## Output:
 * **Google_Ads_Data_Engineering_Project_-_Shaheer_Khan.pdf:** More details of the project can be found [here](https://github.com/ShaheerKhan200/gads-modern-data-stack/blob/main/Google_Ads_-_Data_Engineering_Project_-_Shaheer_Khan.pdf).
+
+
+## Other Resources
+1. dbt doc commands: Can be found [here](https://docs.getdbt.com/reference/commands/cmd-docs)
+2. dbt incremental strategy: Can be found [here](https://docs.getdbt.com/docs/build/incremental-strategy)
+3. Google Ads Query Builder: Can be found [here](https://developers.google.com/google-ads/api/fields/v18/ad_query_builder)
+4. Google Ads Query Book: Can be found [here](https://developers.google.com/google-ads/api/docs/query/cookbook#gaql_2)
+5. Airbyte Google Ads Connector Doc: Can be found [here](https://docs.airbyte.com/integrations/sources/google-ads)
+6. Google Ads API Structure: Can be found [here](https://developers.google.com/google-ads/api/docs/concepts/api-structure#object_ids)
+7. Google Ads Segments Doc: Can be found [here](https://developers.google.com/google-ads/api/docs/reporting/segmentation)
+8. Airbyte Google Ads Source Code: Can be found [here](https://github.com/airbytehq/airbyte/tree/master/airbyte-integrations/connectors/source-google-ads)
+9. dbt snapshots: Can be found [here](https://docs.getdbt.com/docs/build/snapshots)
+10. dbt secrets doc: Can be found [here](https://docs.getdbt.com/reference/dbt-jinja-functions/env_var#secrets)
+11. dbt environment variable doc: Can be found [here](https://docs.getdbt.com/docs/build/environment-variables)
